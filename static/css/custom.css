@@ -1,1 +1,8 @@
 /*! Place your custom styles here */
+
+.navbar-light .nav-link:hover,
+.navbar-light .nav-link.active {
+  border-radius: .3rem;
+  background: #7c0ab1 !important;
+  transition: all 0.2s ease-in-out;
+}
