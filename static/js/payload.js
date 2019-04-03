@@ -35,7 +35,7 @@
             // Only prevent default if animation is actually gonna happen
             event.preventDefault();
             jQuery('html, body').animate({
-              scrollTop: target.offset().top - 50
+              scrollTop: target.offset().top
             }, 800, function () {
               // Callback after animation
               // Must change focus!
